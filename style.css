@@ -58,11 +58,8 @@
     padding: 20px 0 0 20px;
   }
   @media only screen and (max-width: 600px) {
-    body{
-      background-color: red;
-    }
     input[type="text"]{
-      width: 80%;
+      width: 60%;
     }
     ul, h3 {
     margin-left: 0;
