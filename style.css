@@ -8,7 +8,7 @@
     font-family: sans-serif;
   }
     body {
-    overflow: hidden; 
+    overflow-x: hidden; 
 }
   ul, h3 {
     margin:0 7% 10px;
