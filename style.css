@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 16px;
+    font-family: sans-serif;
+  }
+
+  ul, h3 {
+    margin:0 7% 10px;
+    }
+  h3{
+    font-size: 1.3rem;
+  }
+  form{
+    margin: 20px auto;
+  }
+  label{
+    font-size: 1.3rem;
+  }
+  input[type="text"]{
+    appearance: none;
+    text-decoration: none;
+    -webkit-appearance: none;
+    width: 400px;
+    height: 30px;
+    margin: 0 10px;
+    font-size: 1rem;
+  }
+  input[type="submit"]{
+    appearance: none;
+    -webkit-appearance: none;
+    width: 50px;
+    height: 30px;
+  }
+  li{
+    cursor:default;
+    font-size: 1.3rem;
+    margin : 10px 0 0 10px
+
+  }
+  a{
+    text-decoration: none;
+    color:darkcyan;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+  .navbar{
+    cursor: pointer;
+  }
+  fieldset{
+    margin: auto;
+    width: 90%;
+    height: 100px;
+    padding: 20px 0 0 20px;
+  }
+  @media only screen and (max-width: 600px) {
+    body{
+      background-color: red;
+    }
+    input[type="text"]{
+      width: 80%;
+    }
+    ul, h3 {
+    margin-left: 0;
+    }
+  }
